@@ -1,7 +1,0 @@
-To compile your file(s) against libsdlgraph use:
-
-Compiling the example-file:
-
-gcc -o example example.c -lsdlgraph
-
-Also, you need to include sdlgraph.h to your file(s).

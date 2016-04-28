@@ -26,7 +26,7 @@
 #include <float.h>
 #include "sdlgraph.h"
 
-const int NUM_SAMPLES = 1200;
+const int NUM_SAMPLES = 1600;
 const int BUF_SIZE = 1<<20;
 const int MAX_BLOCKS = 1<<20;
 
@@ -120,8 +120,8 @@ void graphEntropy(float *minEntropy) {
   myGraph.yMin = -0.01;
   myGraph.yMax = 1.01;
   myGraph.yScale = 0.1;
-  myGraph.width = 1200;
-  myGraph.height = 800;
+  myGraph.width = 800;
+  myGraph.height = 400;
   
   init_graph(&myGraph); /* Initialize the graph, creating a new SDL window */
   
